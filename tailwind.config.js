@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#022C22",
+        primary: "#022C22", //blue
+        black: "#1D1F1E",
+        text: "#646A69",
       },
     },
     fontFamily: {
