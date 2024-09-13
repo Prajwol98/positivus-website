@@ -1,13 +1,10 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import Varients from "./components/Varients";
-import Varient from "./components/Varients";
+import Hero from "./pages/hero";
 
 function App() {
   return (
     <>
       <Hero></Hero>
-      <Varients />
     </>
   );
 }
