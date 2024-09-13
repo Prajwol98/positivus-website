@@ -1,9 +1,11 @@
-const Button = ({ text, color }) => {
+import { Link } from "react-router-dom";
+const Button = ({ text }) => {
   return (
-    <button>
-      {text}
-      {color}
-    </button>
+    <Link to="/">
+      <button className="bg-primary text-white font-poppins px-[20px] py-[10px] rounded-full mt-5">
+        {text}
+      </button>
+    </Link>
   );
 };
 
