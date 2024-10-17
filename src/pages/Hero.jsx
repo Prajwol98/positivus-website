@@ -55,7 +55,7 @@ const Hero = () => {
             <img src={Illustration} alt="pic" />
           </div>
         </div>
-        <div>
+        <div className="pb-10">
           <Carousel
             responsive={responsive}
             infinite={true}
