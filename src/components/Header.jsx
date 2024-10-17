@@ -6,7 +6,7 @@ import Button from "./Button";
 const Header = () => {
   const lists = ["About us", "Services", "Use Cases", "Pricing", "Blog"];
   return (
-    <div className="bg-white container mx-auto flex justify-between p-8">
+    <div className="bg-white container mx-auto flex justify-between py-10 md:mb-10 md:px-20">
       <div>
         <img src={companyLogo} alt="logo" className="w-[120px] md:w-[150px]" />
       </div>
