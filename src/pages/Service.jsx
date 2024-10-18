@@ -222,7 +222,7 @@ const Service = () => {
             <img
               src={illustrate7}
               alt="logo"
-              className="h-[120%] object-cover "
+              className="h-[120%] object-cover hidden md:block"
             />
           </div>
         </div>
